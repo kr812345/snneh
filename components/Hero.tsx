@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Hero() {
   // Premium emotional cubic-bezier curve
-  const customEase = [0.76, 0, 0.24, 1];
+  const customEase: [number, number, number, number] = [0.76, 0, 0.24, 1];
   
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
